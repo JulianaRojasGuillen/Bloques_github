@@ -1,0 +1,56 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.contenedor{
+    background-color: silver;
+    width:500px;
+    height:700px;
+    margin:20px;
+    padding: 20px;
+}
+.seccion1{
+    background-color: deepskyblue;
+}
+
+.seccion2{
+    background-color: lightcoral;
+    display:flex;
+    justify-content: space-evenly;
+}
+.seccion3{
+    background-color: white;
+}
+.imagenes{
+    width:100px;
+    height: 100px;
+    background-color: white;
+    padding: 20px;
+}
+
+.seccion1,.seccion3{
+    display:flex;
+    justify-content:space-around;
+}
+
+.seccion1,.seccion2,.seccion3{
+    padding:20px;
+}
+
+h1{
+    color:darkslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h4{
+    color:darkslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+span{
+    color: rgb(71, 134, 206);
+    text-decoration: underline;
+}
